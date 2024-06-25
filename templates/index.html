@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MediSim</title>
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(45deg, #ee7752, #8a1743, #035b7b, #bf4574, #1d8ab1, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+  }
+
+  @keyframes gradientBG {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .container {
+    text-align: center;
+    position: relative;
+  }
+
+  .title {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(217, 216, 216); /* Transparent black color (RGBA) */
+
+  }
+
+  .centered-image {
+    margin-top: 20px;
+    width: 500px; /* Set the width to 300 pixels */
+    height: 200px; /* Maintain aspect ratio */
+    max-width: 100%; /* Ensure it doesn't exceed container width */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+</style>
+</head>
+<body>
+  <div class="title"   >MediSim Diseases Prediction Api</div>
+  <div class="container">
+    <img class="centered-image" src="https://firebasestorage.googleapis.com/v0/b/cloud-computing-2d51f.appspot.com/o/Images%2F1718981344007%2F1718981494886%2F1718981503147%2F1718981554944?alt=media&token=c50c04cd-055a-415c-9679-c0f838999a0b" alt="Centered Image">
+  </div>
+</body>
+</html>
